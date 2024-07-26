@@ -192,6 +192,7 @@ const sr = ScrollReveal({
     // reset:true /* animations repeat */
 })
 
+
 sr.reveal('.home__data, .footer__container')
 sr.reveal('.about__content .side_one, .contact__content:nth-child(1)', {origin:'left'})
 sr.reveal('.about__content .side_two, .contact__content:nth-child(2)', {origin:'right'})
