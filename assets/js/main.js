@@ -182,3 +182,34 @@ const scrollHeader = () =>{
                        : header.classList.remove('bg-header')
 }
 window.addEventListener('scroll', scrollHeader)
+
+// SCROLL REVEAL ANIMATION 
+const sr = ScrollReveal({
+    origin:'top',
+    distance:'60px',
+    duration:2500,
+    delay:400,
+    // reset:true /* animations repeat */
+})
+
+sr.reveal('.home__data, .footer__container')
+sr.reveal('.about__content .side_one, .contact__content:nth-child(1)', {origin:'left'})
+sr.reveal('.about__content .side_two, .contact__content:nth-child(2)', {origin:'right'})
+sr.reveal('.skills__blob:nth-child(1) ', {origin:'top',delay:100,duration:2000,distance:'20px'})
+sr.reveal('.skills__blob:nth-child(2) ', {origin:'top',delay:200,duration:2000,distance:'20px'})
+sr.reveal('.skills__blob:nth-child(3) ', {origin:'top',delay:300,duration:2000,distance:'20px'})
+sr.reveal('.skills__blob:nth-child(4) ', {origin:'top',delay:400,duration:2000,distance:'20px'})
+sr.reveal('.skills__blob:nth-child(5) ', {origin:'top',delay:500,duration:2000,distance:'20px'})
+sr.reveal('.skills__blob:nth-child(6) ', {origin:'top',delay:600,duration:2000,distance:'20px'})
+sr.reveal('.skills__blob:nth-child(7) ', {origin:'top',delay:700,duration:2000,distance:'20px'})
+sr.reveal('.skills__blob:nth-child(8) ', {origin:'top',delay:800,duration:2000,distance:'20px'})
+sr.reveal('.skills__blob:nth-child(9) ', {origin:'top',delay:900,duration:2000,distance:'20px'})
+sr.reveal('.skills__blob:nth-child(10) ', {origin:'top',delay:1000,duration:2000,distance:'20px'})
+sr.reveal('.skills__blob:nth-child(11) ', {origin:'top',delay:1100,duration:2000,distance:'20px'})
+sr.reveal('.skills__blob:nth-child(12) ', {origin:'top',delay:1200,duration:2000,distance:'20px'})
+sr.reveal('.services__card:nth-child(1) ', {origin:'top',delay:100,duration:2500,distance:'50px'})
+sr.reveal('.services__card:nth-child(2) ', {origin:'top',delay:250,duration:2500,distance:'50px'})
+sr.reveal('.services__card:nth-child(3) ', {origin:'top',delay:400,duration:2500,distance:'50px'})
+sr.reveal('.swiper', {origin:'left',delay:400,duration:2500,distance:'50px'})
+sr.reveal('.swiper', {origin:'left',delay:400,duration:2500,distance:'50px'})
+

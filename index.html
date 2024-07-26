@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Favas</title>
+    <meta name="description" content="">
     <!-- swiper slide -->
     <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css" />
     <!-- icon -->
@@ -44,7 +45,7 @@
                             </a>
                         </li>
                         <li class="nav__items">
-                            <a href="#works" class="nav__link">
+                            <a href="#work" class="nav__link">
                                 <i class="ri-book-read-line"></i>Works
                             </a>
                         </li>
@@ -92,13 +93,13 @@
                         <img src="./assets/image/dots.svg" alt="" class="home__shape-circle">
                     </div>
                     <ul class="home__social">
-                        <a href="#" class="home__social-link">
+                        <a href="#" class="home__social-link" target="_blank" >
                             <i class="ri-linkedin-box-line"></i>
                         </a>
-                        <a href="#" class="home__social-link">
+                        <a href="#" class="home__social-link" target="_blank" >
                             <i class="ri-github-line"></i>
                         </a>
-                        <a href="#" class="home__social-link">
+                        <a href="https://www.instagram.com/mhd___favaz__/" class="home__social-link" target="_blank" >
                             <i class="ri-instagram-line"></i>
                         </a>
                     </ul>
@@ -106,37 +107,47 @@
             </div>
         </section>
         <!-- ============== ABOUT ================ -->
-        <section class="about container section" id="about">
+        <section class="about container section section__border" id="about">
             <h2 class="section__title">About Us</h2>
+            <span class="sideone_title section__subtitle">Who I am?</span>
             <!-- ============== ABOUT 1================ -->
-            <div class="side_one">
-                <span class="sideone_title section__subtitle">Who I am?</span>
+            <div class="grid about__content">
+                <div class="side_one ">
 
-                <span class="sideone_content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione possimus
-                    nobis, voluptatem placeat autem facilis debitis soluta quaerat itaque ad porro asperiores nesciunt
-                    voluptatibus fuga quisquam tenetur mollitia et quidem.</span>
-            </div>
-            <!-- ============== ABOUT 2 ================ -->
-            <div class="side_two">
-                <div class="sidetwo_content age">
-                    <p><span>Age: </span><br>
-                        19<br></p>
+                    <span>I am Muhammed Favas </span>
+                    <p class="sideone_content">
+                         from Malappuram, Kerala. I am a
+                        full stack developer
+                        specializing in Python and Django, and I work as a freelancer. I completed my secondary
+                        education
+                        under the Kerala state syllabus and graduated with a BA in Arabic from Calicut University. Over
+                        the
+                        past 8 years, I studied at an Arabic college named Jamia Mahiriyya Islamic College, affiliated
+                        with
+                        Jamia Nooriyya Arabic College, where I focused on self-learning coding.</p>
                 </div>
-                <div class="sidetwo_content address">
-                    <p><span>Address: </span><br>
-                        Malappuram, Kerala, India<br></p>
-                </div>
-                <div class="sidetwo_content language">
-                    <p><span>Language: </span><br>
-                        Malayalam, Arabic, English
-                    </p>
+                <!-- ============== ABOUT 2 ================ -->
+                <div class="side_two">
+                    <div class="sidetwo_content age">
+                        <p><span>Age: </span><br>
+                            19<br></p>
+                    </div>
+                    <div class="sidetwo_content address">
+                        <p><span>Address: </span><br>
+                            Malappuram, Kerala, India<br></p>
+                    </div>
+                    <div class="sidetwo_content language">
+                        <p><span>Language: </span><br>
+                            Malayalam, Arabic, English
+                        </p>
+                    </div>
                 </div>
             </div>
         </section>
 
         <!-- ============== skills ================ -->
         <section class="skills container section" id="skills">
-            <h2 class="section__title">MY SKILLS</h2>
+            <h2 class="section__title">My Skills</h2>
             <span class="section__subtitle"> Professional Skills</span>
 
             <div class="skills__container container grid section__border">
@@ -205,8 +216,7 @@
                         Design
                     </h2>
                     <p class="services__description">
-                        Service that provides the best quality and at the request of the clint, with professional
-                        work and customer support.
+                        High-quality, customized graphic design with professional work and outstanding customer support.
                     </p>
 
                     <div class="services__border"></div>
@@ -219,8 +229,7 @@
                         Devolopment
                     </h2>
                     <p class="services__description">
-                        Service that provides the best quality and at the request of the clint, with professional
-                        work and customer support.
+                        Top-quality, tailored web development with professional work and excellent customer support.
                     </p>
 
                     <div class="services__border"></div>
@@ -233,8 +242,7 @@
                         Design
                     </h2>
                     <p class="services__description">
-                        Service that provides the best quality and at the request of the clint, with professional
-                        work and customer support.
+                        Tailored, exceptional UI/UX design with professional expertise and attentive customer support.
                     </p>
 
                     <div class="services__border"></div>
@@ -250,7 +258,7 @@
 
                 <div class="swiper-button-prev"></div>
                 <div class="swiper-button-next"></div>
-                <h1 class="section__title ">My Portfolio</h1>
+                <h1 class="section__title ">My Works</h1>
                 <h2 class="section__subtitle ">Mostrecer Work</h2>
 
                 <!-- Swiper -->
@@ -373,30 +381,30 @@
         <footer class="footer">
             <div class="footer__container container">
                 <h1 class="footer__title">Favas</h1>
-                <p>Frontend Developer</p>
+                <p>Full Stack Developer</p>
 
                 <ul class="footer__list">
                     <li>
-                        <div href="#home" class="footer__link">Home</div>
+                        <a href="#home" class="footer__link">Home</a>
                     </li>
                     <li>
-                        <div href="#skills" class="footer__link">Skills</div>
+                        <a href="#skills" class="footer__link">Skills</a>
                     </li>
                     <li>
-                        <div href="#projects" class="footer__link">Projects</div>
+                        <a href="#projects" class="footer__link">Projects</a>
                     </li>
                 </ul>
 
                 <ul class="footer__social">
-                    <a href="" class="footer__social-link">
+                    <a href="" class="footer__social-link" target="_blank" >
                         <i class="ri-linkedin-box-line"></i>
 
                     </a>
-                    <a href="" class="footer__social-link">
+                    <a href="" class="footer__social-link" target="_blank" >
                         <i class="ri-github-line"></i>
 
                     </a>
-                    <a href="" class="footer__social-link">
+                    <a href="https://www.instagram.com/mhd___favaz__/" target="_blank" class="footer__social-link">
                         <i class="ri-instagram-line"></i>
                     </a>
                 </ul>
@@ -414,8 +422,11 @@
 
     </main>
 
+
     <!-- Home name Animation -->
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <!-- Scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
     <!-- swiper js -->
     <script src="./assets/js/swiper-bundle.min.js"></script>
     <!-- email js -->
